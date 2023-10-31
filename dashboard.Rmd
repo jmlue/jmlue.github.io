@@ -1,5 +1,5 @@
 ---
-title: "dashboard"
+title: "Analyses of Instacart orders of Alcoholic spirits"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -23,7 +23,7 @@ data("instacart")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Distribution of orders of specific alcohol spirits by hour of day
 
 ```{r}
 instacart %>% 
@@ -36,7 +36,7 @@ instacart %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Total orders of each alcoholic spirit
 
 ```{r}
 instacart %>%

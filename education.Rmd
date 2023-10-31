@@ -1,6 +1,10 @@
 ---
 title: "Curriculum Vitae"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
 
 # Education
@@ -78,4 +82,51 @@ output: html_document
 * American College of Gastroenterology 
 
 * American Gastroenterological Association 
+
+# Research
+
+## Fellowship and Grant Support:
+
+* NIH Diversity Supplement: “The Microbiome, Bile Acids, and Notch in Barrett’s Esophagus (BE)”. Role: Trainee grant. PI: Julian Abrams, MD, MS
+
+* ACG Resident Clinical Research Award: “Functional and Transcriptional Consequences of Aspirin Use on the Human Fecal Microbiome“. Role: Grant awardee. PI: Andrew Chan, MD, MPH
+
+* HIVMA Medical Student Program: “Characterizing the effect of HIV infection on the human gut microbiome”. Role: Grant awardee. PI: Douglas Kwon, MD, PhD
+
+* Doris Duke Clinical Research Mentorship: “Characterizing the effect of HIV infection on the human gut microbiome”. Role: Grant awardee. PI: Bruce Walker, MD
+
+## Publications
+
+### ORIGINAL, PEER-REVIEWED RESESRCH PUBLICATIONS IN PRINT OR OTHER MEDIA	
+●	Bloom PP, **Luevano JM Jr**, Miller KJ, Chung RT. Deep stool microbiome analysis in cirrhosis reveals an association between short-chain fatty acids and hepatic encephalopathy. Annals of Hepatology. 2021 Nov-Dec;25:100333. doi: 10.1016/j.aohep.2021.100333. 
+
+●	Gootenberg D, Paer J, **Luevano JM**, Kwon DS. HIV-associated changes in the enteric microbial community: Potential role in loss of homeostasis and development of systemic inflammation. Curr Opin Infect Dis. 2017 Feb;30(1):31-43.
+
+●	Monaco CL, Gootenberg DB, Zhao G, Handley, S, **Luevano JM**, et al. Altered Virome and Bacterial Microbiome in Human Immunodeficiency Virus-Associated Acquired Immunodeficiency Syndrome. Cell Host Microbe. 2016;19(3):311-322. doi:10.1016/j.chom.2016.02.011
+
+●	Carmody RN, Gerber GK, **Luevano JM**, Gatti DM, Somes L, Svenson KL, Turnbaugh PJ. Diet Dominates Host Genotype in Shaping the Murine Gut Microbiota. Cell Host Microbe. 2015;17(1):72-84. doi:10.1016/j.chom.2014.11.010
+
+●	Liou AP, Paziuk M, **Luevano Jr. JM**, Machineni S, Turnbaugh PJ, Kaplan LM. Conserved shifts in the gut microbiota due to gastric bypass reduce host weight and adiposity. Sci Transl Med. 2013;5(178):178ra41. doi:10.1126/scitranslmed.3005687
+
+●	Leu K, Kervio E, Obermayer B, Turk-Macleaod R, Yuan Caterina, **Luevano JM**, Chen E, Gerland U, Richert C, Chen I. Cascade of reduced speed and accuracy after errors in enzyme-free copying of nucleic acid sequences. J Am Chem Soc. 2013;135(1):354-366. doi:10.1021/ja3095558
+
+###MEETINGS/INVITED ORAL AND POSTER PRESENTATIONS
+●	**Luevano JM**, Husain A, Kerry I, Drew D, Chan A. ACG Virtual Conference 2020, Invited Oral Abstract: “Functional and Transcriptional Consequences of Aspirin Use on the Human Fecal Microbiome”.
+
+●	Bloom P, **Luevano JM**, Chung R. AASLD 2019 Poster: “Fecal Microbiome, Short-Chain Fatty Acids, and Ammonia Differ in Patients with Cirrhosis and overt Hepatic Encephalopathy”.
+
+●	**Luevano JM**, Gootenberg D, Paer J, Rogers Z, Kwon D. ID Week 2017 Poster: “HIV-Associated Changes in the Gut Microbiome in Untreated, Treated, and Immunologically Controlled Disease”.
+
+●	**Luevano JM**, Gootenberg D, Paer J, Kwon D. Conference on Retroviruses and Opportunistic Infections (2016) Poster: “Impact of HIV-Associated Changes in the Gut Microbiome on Disease Progression”.
+
+●	**Luevano JM**, Gatti D, Svenson K, Turnbaugh JM. Chicago Annual Conference for Systems Biology (2012) Poster: “Interactions Between Host Genetics, Host Diet, and the Gut Microbiota in Response to Diet Shifts”.
+
+###INVITED AND/OR PEER-SELECTED PRESENTATIONS AT REGIONAL, NATIONAL OR INTERNATIONAL LEVELS:
+* Luevano JM. Panelist for Themed Discussion, “HIV & Microbiome”. Conference on Retroviruses and Opportunistic  Infections (CROI 2016).
+
+
+
+
+
+
 
