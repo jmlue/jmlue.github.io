@@ -1,0 +1,81 @@
+---
+title: "Curriculum Vitae"
+output: html_document
+---
+
+# Education
+
+## College
+
+* Harvard University; Boston, MA (2009-2013)
+
+  * B.A. in Molecular and Cellular Biology, Cum Laude
+  
+  * Research Project in the laboratory of Dr. Peter Turnbaugh, PhD. Studying the enteric microbiome in mouse models
+  
+    * Honors Thesis `Interactions Between Host Genetics, Host Diet, and the Gut Microbiota in Response to Diet Shifts` 
+
+## Medical School
+
+* Harvard Medical School; Boston, MA (2013-2018)
+
+  * M.D., Cum Laude
+  
+  * Certificate from the Harvard-MIT Health, Science and Technology Program
+  
+  * Research Project in the laboratory of Dr. Douglas Kwon, MD, PhD. Studying the impact of HIV on mucosal barrier sites, focus on enteric microbiome in humans. 
+  
+    * Doris Duke Research Fellowship to fund research for a year, 2015-2016
+  
+    * Honors Thesis `HIV-Associated Changes in the Human Gut Microbiome and Impact on Disease Progression`. [Thesis](https://dash.harvard.edu/handle/1/37006475)
+  
+## Master's Program
+
+* Columbia Mailman School of Public Health; (2022-2024)
+
+  * M.S. in Patient Oriented Research (POR), to graduate May 2024
+  
+# Post-Graduate Medical Training
+
+## Residency
+
+* Massachusetts General Hospital; Boston, MA (2018-2021). A Harvard affiliated hospital.
+
+  * Completed Internal Medicine Residency, participated in ICU response during COVID-19 Pandemic
+  
+  * Research projects:
+  
+    * Studying impact of enteric microbiome on hepatic encephalopathy in patients with cirrhosis (collaboration with Drs Patricia Bloom, MD and Raymond Chung, MD)
+    
+    * Studying impact of enteric microbiome on colorectal cancer and aspirin as a chemoprotectant with Dr. Andrew Chan, MD, MPH
+    
+      * Awarded ACG Clinical Resident Research Award
+  
+## Fellowship
+
+* Columbia University - New York Presbyterian Hospital; New York, NY (2021-2024). 
+
+  * Currently completing Post-Doctoral Clinical fellowship in Gastroenterology
+  
+  * Studying the impact of the oral microbiome and esophageal adenocarcinoma with Dr. Julian Abrams, MD, MS
+  
+
+## Licensures and Certifications
+
+* Medical Licenses in Massachusetts and New York
+
+* American Board of Internal Medicine Certification
+
+* BLS and ACLS trained
+
+
+## Professional Organization Memberships
+
+* American Medical Associations
+
+* American College of Physicians 
+
+* American College of Gastroenterology 
+
+* American Gastroenterological Association 
+
