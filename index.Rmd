@@ -1,6 +1,5 @@
 ---
 title: "The Professional Page of Jesus Luevano, MD"
-
 output: html_document
 ---
 
@@ -8,6 +7,9 @@ output: html_document
 
 I appreciate you visiting my site! 
 
-I am currently a post-doctoral clinical fellow at Columbia University Medical Center in Gastroenterology. 
+I am currently a post-doctoral clinical fellow at Columbia University Medical Center in Gastroenterology. If you'd like to learn more about me please feel free: [About](about.html)
 
-Please feel free to review my [CV](education.html)
+
+My work focuses on the microbiome, i.e. the bacteria that live within our intestines. My prior work and training have been geared towards this. Please feel free to review my [CV](education.html)
+
+![](https://www.gutmicrobiotaforhealth.com/wp-content/uploads/2020/09/gut_microbiota_microbes.jpg)

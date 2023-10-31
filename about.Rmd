@@ -3,6 +3,8 @@ title: "About Me"
 output: html_document
 ---
 
+![**My Headshot**](images/photome.jpeg)
+
 I am currently a post-graduate clinical fellow in Gastroenterology at the Columbia University Irving Medical Center (CUIMC), where I am enrolled in the Master’s of Science in Patient Oriented Research program for clinicians through the Columbia Mailman School of Public Health and a trainee in the lab of Dr. Julian Abrams. I investigate how the human microbiome is altered in pathologic states to better understand the role it may play in the pathophysiology of disease to identify possible targets for new therapeutics. I will be working on translational studies of Barrett’s esophagus (a pre-cancerous lesion) and Esophageal Adenocarcinoma to study alterations in the oral and esophageal microbial community structure, and metabolite expression.  
 
 I first became interested in the field of the microbiome as an undergraduate at Harvard College when I first worked in the laboratory of Dr. Peter Turnbaugh, PhD in the department of Systems Biology. The lab studied the interrelationships among diet shifts, host genetics, and the gut microbiome utilizing mouse models. There I learned how to process stool samples for DNA extraction and submission for sequencing, initial genomic analyses, and establishing and cultivating mouse models for our dietary studies. We also collaborated with the lab of Dr. Lee Kaplan to investigate the role of bypass surgery on the microbiome, demonstrating how it alters it in mouse models. This work led to several co-authorship publications, conference poster presentations and my honors senior thesis. 
