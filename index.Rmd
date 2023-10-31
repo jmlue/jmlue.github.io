@@ -19,3 +19,5 @@ My work focuses on the microbiome, i.e. the bacteria that live within our intest
 [GITHUB Page](https://github.com/jmlue)
 
 [Plot Repository](https://github.com/jmlue/p8105_visualization_ggplot2)
+
+[INSTACART](dashboard.html) where we demonstrate plots from a database used in class to feature dashboard!
