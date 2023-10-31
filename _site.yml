@@ -17,4 +17,5 @@ navbar:
       href: http://www.linkedin.com/in/jesus-m-luevano-md
 output:
   html_document:
-    theme: cosmo
+    theme: yeti
+    toc: true
