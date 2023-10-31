@@ -61,8 +61,9 @@ instacart %>%
 instacart %>% 
   filter(department == "alcohol", aisle == "spirits", reordered == "1") %>%
   na.omit() %>%
+  rename("Day_of_the_Week" = "order_dow") %>%
   plot_ly(
-    x= ~product_name, y= ~order_dow, color = ~product_name, type = "box",colors = "viridis"
+    x= ~product_name, y= ~Day_of_the_Week, color = ~product_name, type = "box",colors = "viridis"
   )
 ```
 
