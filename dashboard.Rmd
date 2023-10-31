@@ -4,7 +4,6 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
-    toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +15,7 @@ library(p8105.datasets)
 ```
 
 
-```{r}
+```{r data}
 data("instacart")
 
 ```
@@ -26,45 +25,65 @@ Column {data-width=400}
 
 ### Distribution of reorders by hour of day on the weekend for specific alcoholic spirits by unique users
 
-```{r}
+```{r Plot A}
 instacart %>%
   filter(department == "alcohol", aisle == "spirits", reordered == "1", order_dow %in% c("4","5","6")) %>%
   mutate(text_label = str_c(order_dow, "_", order_hour_of_day)) %>%
   plot_ly(
     x= ~order_hour_of_day, y= ~user_id, color= ~product_name, type = "scatter", text = ~text_label, mode = "markers", colors = "viridis"
-  )
+  ) %>%
+  layout(xaxis = list(
+           title=list(text='Hour of Day', font = list(size = 20), standoff = 25),
+           zerolinewidth = 2),
+         yaxis = list(
+           title=list(text='User ID', standoff = 25),
+           zerolinewidth = 2))
+
 ```
 
 Column {data-width=600}
 -----------------------------------------------------------------------
 
-### Total orders of each alcoholic spirit
+### Total orders of each alcoholic spirit over 10 minimum
 
-```{r}
+```{r Plot B}
 instacart %>%
   filter(department == "alcohol", aisle == "spirits") %>%
   group_by(product_name, aisle) %>%
   summarize(total = n()) %>%
+  filter(total >10) %>%
   arrange(desc(total)) %>%
   plot_ly(
     x= ~fct_reorder(product_name, total), y= ~total, color = ~product_name, type = "bar", colors = "viridis"
   ) %>%
-  layout(
-    list(xaxis = "Spirit"),
-    list(yaxis = "Total Purchases")
-  )
+  layout(xaxis = list(
+           title=list(text='Spirit', font = list(size = 20), standoff = 25),
+           tickangle = 45,
+           tickfont = list(size=9),
+           zerolinewidth = 2),
+         yaxis = list(
+           title=list(text='Total Purchases', standoff = 25),
+           zerolinewidth = 2))
 ```
 
-### Day of the Week distribution of reorders of specific alcohol spirits
+### Distribution by week day of reorders of specific alcohol spirits
 
-```{r}
+```{r Plot C}
 instacart %>% 
   filter(department == "alcohol", aisle == "spirits", reordered == "1") %>%
   na.omit() %>%
   rename("Day_of_the_Week" = "order_dow") %>%
   plot_ly(
-    x= ~product_name, y= ~Day_of_the_Week, color = ~product_name, type = "box",colors = "viridis"
-  )
+    x= ~product_name, y= ~Day_of_the_Week, color = ~aisle, type = "box",colors = "viridis"
+  ) %>%
+  layout(xaxis = list(
+           title=list(text='Spirit', font = list(size = 20)),
+           zerolinewidth = 2,
+           tickangle = 45,
+           tickfont = list(size=9)),
+         yaxis = list(
+           title=list(text='Day of the Week', standoff = 25),
+           zerolinewidth = 2))
 ```
 
 
