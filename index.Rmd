@@ -13,3 +13,9 @@ I am currently a post-doctoral clinical fellow at Columbia University Medical Ce
 My work focuses on the microbiome, i.e. the bacteria that live within our intestines. My prior work and training have been geared towards this. Please feel free to review my [CV](education.html)
 
 ![](https://www.gutmicrobiotaforhealth.com/wp-content/uploads/2020/09/gut_microbiota_microbes.jpg)
+
+## Some of the work I've done in my Data Science Class
+
+[GITHUB Page](https://github.com/jmlue)
+
+[Plot Repository](https://github.com/jmlue/p8105_visualization_ggplot2)
