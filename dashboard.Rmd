@@ -21,7 +21,7 @@ data("instacart")
 
 ```
 
-Column {data-width=650}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Distribution of reorders by hour of day on the weekend for specific alcoholic spirits by unique users
@@ -35,7 +35,7 @@ instacart %>%
   )
 ```
 
-Column {data-width=350}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Total orders of each alcoholic spirit
