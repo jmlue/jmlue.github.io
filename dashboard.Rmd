@@ -24,13 +24,14 @@ data("instacart")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Distribution of orders of specific alcohol spirits by hour of day
+### Distribution of reorders by hour of day on the weekend for specific alcoholic spirits by unique users
 
 ```{r}
-instacart %>% 
-  filter(department == "alcohol", aisle == "spirits") %>%
+instacart %>%
+  filter(department == "alcohol", aisle == "spirits", reordered == "1", order_dow %in% c("4","5","6")) %>%
+  mutate(text_label = str_c(order_dow, "_", order_hour_of_day)) %>%
   plot_ly(
-    x= ~product_name, y= ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis"
+    x= ~order_hour_of_day, y= ~user_id, color= ~product_name, type = "scatter", text = ~text_label, mode = "markers", colors = "viridis"
   )
 ```
 
@@ -43,23 +44,28 @@ Column {data-width=350}
 instacart %>%
   filter(department == "alcohol", aisle == "spirits") %>%
   group_by(product_name, aisle) %>%
-  summarize(n_obs = n()) %>%
-  arrange(desc(n_obs)) %>%
-  mutate(product_name = fct_reorder(product_name, n_obs)) %>%
+  summarize(total = n()) %>%
+  arrange(desc(total)) %>%
   plot_ly(
-    x= ~product_name, y= ~n_obs, color = ~aisle, type = "bar", colors = "viridis"
+    x= ~fct_reorder(product_name, total), y= ~total, color = ~product_name, type = "bar", colors = "viridis"
+  ) %>%
+  layout(
+    list(xaxis = "Spirit"),
+    list(yaxis = "Total Purchases")
   )
 ```
 
-### Chart C
+### Day of the Week distribution of reorders of specific alcohol spirits
 
 ```{r}
-instacart %>%
-  filter(department == "alcohol", aisle == "spirits", reordered == "1", order_dow %in% c("5","6")) %>%
+instacart %>% 
+  filter(department == "alcohol", aisle == "spirits", reordered == "1") %>%
+  na.omit() %>%
   plot_ly(
-    x= ~order_hour_of_day, y= ~user_id, color= ~product_name, type = "scatter", mode = "markers", colors = "viridis"
+    x= ~product_name, y= ~order_dow, color = ~product_name, type = "box",colors = "viridis"
   )
 ```
+
 
 ```{r}
 #rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
